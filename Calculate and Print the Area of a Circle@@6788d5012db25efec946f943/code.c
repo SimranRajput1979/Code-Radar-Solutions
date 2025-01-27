@@ -6,5 +6,4 @@ int main(){
     area=PI*r*r;
     printf("Area: %.2f\n",area);
     return 0;
-
 }
