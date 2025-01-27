@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int r,area;
-    scan("%d",&r);
+    float r,area;
+    scan("%f",&r);
     area=3.14*(r^2)
-    printf("Area: %d",area);
+    printf("Area: %f",area);
     return 0;
 
 }
