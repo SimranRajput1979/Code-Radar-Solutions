@@ -8,5 +8,5 @@ int main(){
     else{
         printf("False");
     }
-    reutrn 0;
+    return 0;
 }
