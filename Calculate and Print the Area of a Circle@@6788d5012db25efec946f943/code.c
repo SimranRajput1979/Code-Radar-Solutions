@@ -2,7 +2,7 @@
 int main(){
     int r,area;
     scan("%d",&r);
-    area=pi*r^2
+    area=3.14*r^2
     printf("Area: %d",area);
     return 0;
 
