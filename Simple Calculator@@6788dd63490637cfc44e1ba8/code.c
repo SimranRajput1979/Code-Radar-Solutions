@@ -48,10 +48,10 @@ int main(){
         }
         else{
             printf("error");
-        }
+        }   
+    }
     else{
         printf("error");
     }
-    return 0;    
-    }
+    return 0;
 }
