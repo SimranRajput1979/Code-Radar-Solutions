@@ -6,23 +6,23 @@ int main(){
     if (c=="+")
         printf("%d",a+b);
     
-    else if (c=="-"){
+    else if (c=="-")
         printf("%d",a-b);
-    }
-    else if (c=="*"){
+    
+    else if (c=="*")
         printf("%d",a*b);
-    }
-    else if (c=="/"){
+    
+    else if (c=="/")
         if (b!=0){
             printf("%d",a/b);
-        }
-        else{
+        
+        else
             printf("error");
-        }
-    }
-    else{
+        
+    
+    else
         printf("error");
-    }
+    
     return 0;
 
 }
