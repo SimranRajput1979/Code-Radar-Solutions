@@ -3,9 +3,9 @@ int main(){
     int a,b;
     char c[100];
     scanf("%d %c %d",&a,&c,&b);
-    if (c=="+"){
+    if (c=="+")
         printf("%d",a+b);
-    }
+    
     else if (c=="-"){
         printf("%d",a-b);
     }
