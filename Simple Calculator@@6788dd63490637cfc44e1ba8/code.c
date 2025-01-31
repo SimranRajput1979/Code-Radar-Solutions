@@ -3,7 +3,7 @@
 int main(){
     int a,b;
     char c[2];
-    scanf("%d %c %d",&a,&c,&b);
+    scanf("%d %s %d",&a,&c,&b);
     if (strcmp(c,"+")==0){
         printf("%d\n",a+b);
     }
