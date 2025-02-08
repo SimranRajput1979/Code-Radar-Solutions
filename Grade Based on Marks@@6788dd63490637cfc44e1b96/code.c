@@ -11,6 +11,9 @@ int main(){
     else if ((marks<80)&&(marks>=70)){
         printf("C");
     }
+    else if ((marks<70)&&(marks>=60)){
+        printf("D");
+    }
     else{
         printf("F");
     }
