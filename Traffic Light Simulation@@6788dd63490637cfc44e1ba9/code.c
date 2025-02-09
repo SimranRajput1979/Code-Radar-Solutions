@@ -2,7 +2,7 @@
 int main(){
     char a[100];
     scanf("%c",&a);
-    if (a=="R"){
+    if (a=="R" || a=="r"){
         printf("Stop");
     }
     else if (a=="G"){
