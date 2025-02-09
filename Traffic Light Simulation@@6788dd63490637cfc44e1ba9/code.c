@@ -2,13 +2,13 @@
 int main(){
     char a[100];
     scanf("%c",&a);
-    if (a=="R" || a=="r"){
+    if (strcmp(a=="R")){
         printf("Stop");
     }
-    else if (a=="G" || a=="g"){
+    else if (a=="G"){
         printf("Go");
     }
-    else if (a=="Y" || a=="y"){
+    else if (a=="Y"){
         printf("Slow Down");
     }
     else{
