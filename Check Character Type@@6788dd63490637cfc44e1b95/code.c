@@ -2,10 +2,10 @@
 int main(){
     char a[100];
     scanf("%c",&a);
-    if (a=='a','e','i','o','u'){
+    if (a==('a','e','i','o','u')){
         printf("Vowel");
     }
-    else if(a!='a','e','i','o','u'){
+    else if(a!=('a','e','i','o','u')){
         printf("Consonant");
     }
     else if (isdigit(a)){
