@@ -8,7 +8,7 @@ int main(){
         break;
         }
     }
-    if(isprime){
+    if(isPrime){
         printf("Prime",a);
     }
     else{
