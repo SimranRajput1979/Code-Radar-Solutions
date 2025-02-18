@@ -3,7 +3,7 @@ int main(){
     int a,i;
     scanf("%d",&a);
     for (i=1;i<=10;i++){
-        printf("axi=a*i",i);
+        printf("=",a,a*i);
     }
     return 0;
 }
