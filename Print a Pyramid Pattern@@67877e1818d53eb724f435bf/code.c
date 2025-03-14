@@ -1,5 +1,5 @@
 // Your code here...
-#include<Stdio.h>
+#include<stdio.h>
 int main(){
     int n,space;
     for(int i=1;i<=n;i++){
