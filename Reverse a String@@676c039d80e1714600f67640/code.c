@@ -16,7 +16,7 @@ int main() {
         str[length - i - 1] = temp;
     }
     
-    printf(" %s\n", str);
+    printf("%s\n", str);
     
     return 0;
 }
