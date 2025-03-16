@@ -6,8 +6,6 @@ int main() {
     char str[100];
     int i, length;
     char temp;
-    
-    printf("Enter a string: ");
     scanf("%s", str);
     
     length = strlen(str);
@@ -18,7 +16,7 @@ int main() {
         str[length - i - 1] = temp;
     }
     
-    printf("Reversed string: %s\n", str);
+    printf(" %s\n", str);
     
     return 0;
 }
