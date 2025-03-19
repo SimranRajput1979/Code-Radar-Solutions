@@ -1,12 +1,10 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    unsigned int num;
-    scanf("%u", &num);
+    int num;
+    scanf("%d", &num);
 
-    printf("%u\n", ~num);  // Flip all bits using ~
+    printf("%d\n", ~num);  // Flip all bits using ~
     
     return 0;
 }
-
