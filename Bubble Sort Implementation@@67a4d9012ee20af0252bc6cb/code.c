@@ -30,7 +30,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bubbleSort(int n, int arr[]);
+    bubbleSort(n,arr[]);
     printArray(arr,n);
     return 0;
 }
