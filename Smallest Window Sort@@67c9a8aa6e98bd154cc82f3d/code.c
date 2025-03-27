@@ -20,19 +20,3 @@ int findUnsortedSubarrayLength(int arr[], int n) {
 
     return right - left + 1;
 }
-
-int main() {
-    int T, N;
-    scanf("%d", &T);
-
-    while (T--) {
-        scanf("%d", &N);
-        int arr[N];
-
-        for (int i = 0; i < N; i++) scanf("%d", &arr[i]);
-
-        printf("%d\n", findUnsortedSubarrayLength(arr, N));
-    }
-
-    return 0;
-}
