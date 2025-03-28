@@ -7,9 +7,9 @@ void selectionSort(char arr[][100],int n){
             min=j;
         }
         char temp[100];
-        strcmp (temp,arr[min]);
-        strcmp (arr[min],arr[i]);
-        strcmp (arr[i],temp);
+        strcpy (temp,arr[min]);
+        strcpy (arr[min],arr[i]);
+        strcpy (arr[i],temp);
     }
 }
 void printArray(char arr[][100],int n){
