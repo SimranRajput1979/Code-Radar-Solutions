@@ -12,7 +12,7 @@ void selectionSort(char arr[][100],int n){
         strcmp (arr[i],temp);
     }
 }
-void printArray(char arr[n][100],int n){
+void printArray(char arr[][100],int n){
     for(int i=0;i<n;i++){
         printf("%s ",arr[i]);
     }
