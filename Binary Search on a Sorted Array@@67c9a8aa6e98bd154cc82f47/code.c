@@ -7,7 +7,7 @@ void binarySearch(int arr[],int n){
         if(arr[mid]<target){
             low=mid+1;}
             else if(arr[mid]==target){
-                printf("%d",mid+1);
+               return mid;
                 break;
             }
             else{
