@@ -1,5 +1,5 @@
 // Your code here...
-void binarySearch(int arr[n],target[]){
+void binarySearch(int arr[],target[]){
     int low=0,high=n-1;
     while(low<=high){
         int mid=(low+high)/2;
