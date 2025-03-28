@@ -8,8 +8,8 @@ void selectionSort(char arr[][100],int n){
         }
         char temp[100];
         strcyp (temp,arr[min]);
-        strcyp (arr[min],arr[i]);
-        strcyp (arr[i],temp);
+        strcpy (arr[min],arr[i]);
+        strcpy (arr[i],temp);
     }
 }
 void printArray(char arr[n][100],int n){
