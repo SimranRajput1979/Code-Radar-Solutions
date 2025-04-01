@@ -1,16 +1,24 @@
-// Your code here...
-int factorialRange(int n,int m){
-    // int fact=1;
-    for(int i=n;i<=m;i++){
-    int fact(n){
-        if(i==0 || i==1){
-            return 1;
-        }
-        else{
-            return fact=n*fact(n-1);
+#include <stdio.h>
+int fact(int n){
+if(n==1 || n==0){
+    return 1;
+else{
+    return n*fact(n-1);
+}
+}
+}
+int factorialRange(int start,int end){
+    if(start>end){
+        printf("Invalid range");
+    }
+    else if(start<0){
+printf("Invalid range");
+    }
+    else{
+        for(int i=start;i<=end;i++){
+            f=fact(i);
+            printf("%d",f);
         }
     }
-    printf("%d\n",fact(n));
-    // return fact;
-}
+
 }
