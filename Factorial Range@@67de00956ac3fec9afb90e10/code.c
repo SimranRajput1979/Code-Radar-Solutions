@@ -11,4 +11,5 @@ int factorialRange(int n,int m){
         printf("%d\n",fact);
 
     }
+    return fact;
 }
