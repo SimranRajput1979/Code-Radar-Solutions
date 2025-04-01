@@ -14,9 +14,10 @@ int factorialRange(int start,int end){
 printf("Invalid range");
     }
     else{
+        int f;
         for(int i=start;i<=end;i++){
             f=fact(i);
-            printf("%d",f);
+            printf("%d\n",f);
         }
     }
 
