@@ -7,7 +7,7 @@ int factorialRange(int n,int m){
             return 1;
         }
         else{
-            fact=n*fact(n-1);
+            return fact=n*fact(n-1);
         }
     }
     printf("%d\n",fact(n));
