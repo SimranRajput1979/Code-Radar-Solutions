@@ -10,7 +10,7 @@ int frequencycount(int arr[],int n){
             continue;
         }
     }
-    printf("%d %d",i,count);
+    printf("%d %d",arr[i],count);
 }
 
 
