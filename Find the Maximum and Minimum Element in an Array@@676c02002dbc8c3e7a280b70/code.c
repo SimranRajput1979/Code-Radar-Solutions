@@ -17,7 +17,7 @@ int  bubblesort(int arr[],int n){
         // printf("%d",arr[i]);
       
     }
-    printf("%d %d",arr[0],arr[n-1]);
+    printf("%d %d",arr[i],arr[n-1]);
 }
 int main(){
     int n;
