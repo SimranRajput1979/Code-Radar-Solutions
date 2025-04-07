@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int frequencycount(int arr[],int n){
-    int count=1;
+    int count=0;
     int i;
     for(int i=0;i<n;i++){
         if(arr[i]==arr[n-1]){
