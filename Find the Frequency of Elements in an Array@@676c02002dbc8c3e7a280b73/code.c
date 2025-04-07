@@ -11,13 +11,10 @@ int frequencycount(int arr[],int n){
         }
     }
     int count=1;
-    int i;
-    for(int i=0;i<n;i++){
-        if(arr[i]==arr[n-1]){
+    for(int j=i+1;i<n;j++){
+        if(arr[i]==arr[j]){
             count++;
-        }
-        else{
-            continue;
+            visited[j]=1;
         }
     }
     printf("%d %d",arr[i],count);
