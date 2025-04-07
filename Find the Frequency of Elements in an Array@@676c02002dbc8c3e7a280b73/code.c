@@ -11,7 +11,7 @@ int frequencycount(int arr[],int n){
         }
     }
     int count=1;
-    int i;
+    // int i;
     for(int j=i+1;i<n;j++){
         if(arr[i]==arr[j]){
             count++;
