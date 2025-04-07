@@ -2,6 +2,7 @@
 #include<stdio.h>
 int frequencycount(int arr[],int n){
     int count=0;
+    int i;
     for(int i=0;i<n;i++){
         if(arr[i]==arr[i+1]){
             count++;
@@ -10,7 +11,7 @@ int frequencycount(int arr[],int n){
             continue;
         }
     }
-    printf("%d",count);
+    printf("%d %d",arr[i],count);
 }
 
 
