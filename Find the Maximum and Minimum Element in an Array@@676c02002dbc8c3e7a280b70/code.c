@@ -13,9 +13,10 @@ int  bubblesort(int arr[],int n){
                 arr[j+1]=temp;
             }
         }
+        printf("%d",arr[i]);
       
     } 
-    printf("%d %d",arr[i],arr[n-1]); 
+  printf("%d",arr[n-1]);
 }
 int main(){
     int n;
