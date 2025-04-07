@@ -21,6 +21,8 @@ int bubblesort(int arr[],int n){
                 arr[j+1]=temp;
             }
         }
+        printf("%d %d",arr[i],arr[i-1]);
     }
-    printf("%d %d",arr[i],arr[i-1]);
+    
+    
 }
