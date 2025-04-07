@@ -13,7 +13,7 @@ int frequencycount(int arr[],int n){
     }
     int count=1;
     // int i;
-    for(int j=int(i+1);i<n;j++){
+    for(int j=int i+1;i<n;j++){
         if(arr[i]==arr[j]){
             count++;
             visited[j]=1;
