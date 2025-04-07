@@ -1,6 +1,15 @@
 // Your code here...
 #include<stdio.h>
 int frequencycount(int arr[],int n){
+    int visited[n];
+    for(int i=0;i<n;i++){
+        visited[i]=0;
+    }
+    for(int i=0;i<n;i++){
+        if (visited[i]==1){
+            continue;
+        }
+    }
     int count=0;
     int i;
     for(int i=0;i<n;i++){
