@@ -2,7 +2,6 @@
 #include<stdio.h>
 int frequencycount(int arr[],int n){
     int visited[n];
-    // int i;
     for(int i=0;i<n;i++){
         visited[i]=0;
     }
@@ -10,7 +9,7 @@ int frequencycount(int arr[],int n){
         if (visited[i]==1){
             continue;
         }
-    }
+    
     int count=1;
     // int i;
     for(int j=i+1;i<n;j++){
@@ -20,7 +19,7 @@ int frequencycount(int arr[],int n){
         }
     }
     printf("%d %d\n",arr[i],count);
-}
+}}
 int main(){
     int n;
     scanf("%d",&n);
