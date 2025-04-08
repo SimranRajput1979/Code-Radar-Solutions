@@ -6,6 +6,9 @@ int samelement(int arr[],int n){
         if(arr[i]==arr[i+1]){
             return 1;
             }
+        else{
+            return 0;
+        }
         }}
     
 int bubblesort(int arr[],int n){
@@ -19,13 +22,7 @@ int bubblesort(int arr[],int n){
             }
         }
     } 
-    if((n==1)||samelement(arr,n)){
-        printf("-1");
-    }
-    else{
-    printf("%d",arr[n-2]);
-    }}
-
+}
 
 int main(){
     int n;
@@ -35,5 +32,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,n);
+
+    if((n==1)||samelement(arr,n)){
+        printf("-1");
+    }
+    else{
+    printf("%d",arr[n-2]);
+    }}
+
 
 }
