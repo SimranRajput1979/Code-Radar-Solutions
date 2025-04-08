@@ -11,7 +11,12 @@ int bubblesort(int arr[],int n){
             }
         }
     }
+    if(n==1){
+        printf("-1");
+    }
+    else{
     printf("%d",arr[n-2]);
+    }
 }
 int main(){
     int n;
