@@ -7,16 +7,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int flag=0;
     for(int i=0;i<n;i++){
         if(arr[i]>arr[i+1]){
-            return flag=1;
+            printf("%d",arr[i]);
+            return 0;
         }
     }
-    if(flag){
-        printf("%d",arr[i]);
-    }
-    else{
-    printf("-1");}
+    printf("-1");
     return 0;
 }
