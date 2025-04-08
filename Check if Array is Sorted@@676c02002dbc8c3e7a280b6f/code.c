@@ -5,7 +5,7 @@ int bubblesort(int arr[],int n){
         for(int j=0;j<n-i-1;j++){
             if(arr[j+1]>arr[j]){
                 printf("Sorted");
-
+                break;
             //     int temp;
             //     temp=arr[j];
             //     arr[j]=arr[j+1];
