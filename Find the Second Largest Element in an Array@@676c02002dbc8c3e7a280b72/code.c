@@ -14,8 +14,12 @@ int bubblesort(int arr[],int n){
     if(n==1){
         printf("-1");
     }
-    else if (arr[i]==arr[i+1]){
-        printf("-1");
+    else if {
+        for(int i=0;i<n;i++){
+            if(arr[i]==arr[i+1]){
+                printf("-1");
+            }
+        }
     }
     else{
     printf("%d",arr[n-2]);
