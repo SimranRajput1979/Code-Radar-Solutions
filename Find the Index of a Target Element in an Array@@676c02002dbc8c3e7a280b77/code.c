@@ -9,13 +9,17 @@ int main(){
     }
     int k;
     scanf("%d",&k);
+    int found=0;
     for(int i=0;i<n;i++){
         if(arr[i]==k){
             printf("%d",i);
+            found=1;
+            break;
         }
-        else{
-            printf("-1");
-        }
+
+    }
+    if(found==0){
+        printf("-1");
     }
     return 0;
 }
