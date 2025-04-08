@@ -3,11 +3,11 @@
 int bubblesort(int arr[],int n){
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
-            if(arr[j+1]>arr[j])
-            printf("Sorted");
-
+            if(arr[j]>arr[j+1])
+            return 1;
+            
             else{
-                printf("Not Sorted");
+               return 0;
             }
         }
     }
@@ -20,10 +20,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,n);
-    // if(bubblesort==arr[n]){
-    //     printf("Sorted");
-    // }
-    // else{
-    //     printf("Not Sorted");
-    // }
+    if(bubblesort(arr,n)){
+        printf("Sorted");
+    }
+    else if(n==1){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
+    }
 }
