@@ -35,10 +35,5 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,n);
-    if((n==1)||samelement(arr,n)){
-        printf("-1");
-    }
-    else{
-    printf("%d",arr[n-2]);
-    }
+
 }
