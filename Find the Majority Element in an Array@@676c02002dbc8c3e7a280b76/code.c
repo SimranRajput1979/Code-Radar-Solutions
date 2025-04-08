@@ -15,19 +15,20 @@ int majorityelement(int arr[],int n){
         }
     }
 
-    }
+    
     int count=0;
     for(int i=0;i<n;i++){
         if(arr[i]==candidate){
             count++;
-        }}
+        }
+    }
         if(count>n/2){
             return candidate;
         }
         else{
             return -1;
         }
-    
+}
 int main(){
     int n;
     scanf("%d",&n);
