@@ -16,7 +16,7 @@ int majorityelement(int arr[],int n){
     }
 
     }
-    count=0;
+    int count=0;
     for(int i=0;i<n;i++){
         if(arr[i]==candidate){
             count++;
