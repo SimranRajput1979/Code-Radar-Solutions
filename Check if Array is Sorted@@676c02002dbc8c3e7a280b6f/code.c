@@ -26,10 +26,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,n);
-    if(bubblesort==arr[n]){
-        printf("Sorted");
-    }
-    else{
-        printf("Not Sorted");
-    }
+    // if(bubblesort==arr[n]){
+    //     printf("Sorted");
+    // }
+    // else{
+    //     printf("Not Sorted");
+    // }
 }
