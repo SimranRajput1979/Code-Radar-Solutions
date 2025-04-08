@@ -10,20 +10,14 @@ int bubblesort(int arr[],int n){
                 arr[j+1]=temp;
             }
         }
-    }
-    if(n==1){
-        printf("-1");
-    }
-    else if {
+    }    
+    int samelement(int arr[],int n){
         for(int i=0;i<n;i++){
             if(arr[i]==arr[i+1]){
-                printf("-1");
+                return 1;
             }
-        }
-    }
-    else{
-    printf("%d",arr[n-2]);
-    }
+        }}
+    
 }
 int main(){
     int n;
@@ -33,4 +27,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,n);
+    if(n==1){
+        printf("-1");
+    }
+    else if(samelement(arr,n)){
+        printf("-1");
+    }
+    else{
+    printf("%d",arr[n-2]);
+    }
 }
