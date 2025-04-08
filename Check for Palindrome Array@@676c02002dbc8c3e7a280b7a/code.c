@@ -1,6 +1,5 @@
 #include<stdio.h>
-int main(){
-    int palindrome(int arr[],int n){
+int palindrome(int arr[],int n){
         int i=0;
         int j=n-1;
         while(i<j){
@@ -12,6 +11,7 @@ int main(){
         }
         return 1;
     }
+int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
