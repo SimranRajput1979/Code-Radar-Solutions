@@ -15,7 +15,7 @@ int main(){
         if(arr[i]==arr[j]){
             count++;
         }}
-        if(count>max_frequency || count==max_frequency && arr[i]<max_element){
+        if(count>max_frequency){
         max_frequency=count;
         max_element=arr[i];
     }
