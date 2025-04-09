@@ -33,7 +33,7 @@ int main(){
             break;
         }
     }
-    if(!=found){
+    if(!found){
         printf("-1");
     }
     return 0;
