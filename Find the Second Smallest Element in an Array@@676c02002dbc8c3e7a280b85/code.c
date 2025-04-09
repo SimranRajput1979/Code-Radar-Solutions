@@ -20,7 +20,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if(bubblesort(arr,n)){
-        for(int i=0;i<;i++){
+        for(int i=0;i<n;i++){
         if(arr[i]==arr[i+1]){
             printf("-1");
             break;}
