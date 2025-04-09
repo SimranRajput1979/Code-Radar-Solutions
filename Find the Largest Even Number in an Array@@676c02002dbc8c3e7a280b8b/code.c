@@ -23,7 +23,7 @@ int main(){
     for(int i=0;i<n-1;i++){
         if(arr[i]%2==0){
             printf("%d",arr[i]);
-            break;
+           return 0;
         }
     }
     printf("-1");
