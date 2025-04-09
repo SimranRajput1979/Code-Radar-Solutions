@@ -22,7 +22,7 @@ int main(){
     bubblesort(arr,n);
     for(int i=0;i<n;i++){
     if(arr[i]%2==0){
-        if(arr[i]==arr(n)){
+        if(arr[i]==(n)){
         printf("%d",arr[i]);
         return 0;}
     }}
