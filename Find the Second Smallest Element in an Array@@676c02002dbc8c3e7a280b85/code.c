@@ -29,10 +29,11 @@ int main(){
     for(int i=1;i<n;i++){
         if(arr[i]!=first){
             printf("%d",arr[i]);
-            return 0;
+            found=1;
+            break;
         }
     }
-    if(!=first){
+    if(!=found){
         printf("-1");
     }
     return 0;
