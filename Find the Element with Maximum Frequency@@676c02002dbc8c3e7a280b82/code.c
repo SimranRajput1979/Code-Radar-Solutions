@@ -15,12 +15,13 @@ int main(){
         if(arr[i]==arr[i+1]){
             count++;
         }}
-        if(count>max_frequency){
+        if(count>max_frequency || count==max_frequency && arr[i]<max_element){
         max_frequency=count;
         max_element=arr[i];
     }
     }
    
     printf("%d ",max_element);
+    return 0;
     // printf("%d",max_frequency);
 }
