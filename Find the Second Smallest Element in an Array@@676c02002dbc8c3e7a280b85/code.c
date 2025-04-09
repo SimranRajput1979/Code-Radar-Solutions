@@ -24,7 +24,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,n);
-    int first=0;
+    int first=arr[0];
     int found=0;
     for(int i=1;i<n;i++){
         if(arr[i]!=first){
