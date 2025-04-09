@@ -22,5 +22,5 @@ int main(){
     }
    
     printf("%d ",max_element);
-    printf("%d",max_frequency);
+    // printf("%d",max_frequency);
 }
