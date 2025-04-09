@@ -23,10 +23,9 @@ int main(){
     for(int i=0;i<n-1;i++){
         if(arr[i]%2==0){
             printf("%d",arr[i]);
-        }
-        else{
-            printf("-1");
+            break;
         }
     }
+    printf("-1");
     return 0;
 }
