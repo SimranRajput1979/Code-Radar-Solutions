@@ -14,9 +14,10 @@ int main(){
         if(arr[i]==arr[i+1]){
             count++;
         }
-    }
-    if(count>max_count){
+        if(count>max_count){
         max=arr[i];
     }
+    }
+   
     printf("%d",max);
 }
