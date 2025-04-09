@@ -21,12 +21,12 @@ int main(){
     }
     if(bubblesort(arr,n)){
         for(int i=0;i<n;i++){
-        if(arr[i]==arr[i+1]){
-            printf("-1");
-            break;}
             if(n==1){
                 printf("-1");
-            }}
+            }
+            if(arr[i]==arr[i+1]){
+            printf("-1");
+            break;}}
         printf("%d",arr[1]);
         }
     
