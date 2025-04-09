@@ -22,8 +22,9 @@ int main(){
     bubblesort(arr,n);
     for(int i=0;i<n;i++){
     if(arr[i]%2==0){
+        if(arr[i]==(n-1)){
         printf("%d",arr[i]);
-        return 0;
+        return 0;}
     }}
     printf("-1");
 }
