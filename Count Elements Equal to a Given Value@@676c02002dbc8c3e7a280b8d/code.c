@@ -10,10 +10,10 @@ int main(){
     int found=0;
     for(int i=0;i<n;i++){
         if(arr[i]==k){
-            count++;
+            found++;
         }
     }
-    printf("%d",count);
+    printf("%d",found);
     return 0;
 
 }
