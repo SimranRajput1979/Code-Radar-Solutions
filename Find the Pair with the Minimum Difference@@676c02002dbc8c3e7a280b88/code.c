@@ -19,6 +19,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    bubblesort(arr,n);
    int maximum_difference=abs(arr[1]-arr[0]);
    int x=arr[0],y=arr[1];
    for(int i=0;i<n-1;i++){
