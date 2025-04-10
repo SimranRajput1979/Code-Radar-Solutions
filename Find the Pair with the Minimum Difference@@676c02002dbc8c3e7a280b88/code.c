@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-#include<Stdlib.h>
+#include<stdlib.h>
 int bubblesort(int arr[],int n){
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
