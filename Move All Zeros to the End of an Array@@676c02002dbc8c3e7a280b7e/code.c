@@ -1,25 +1,15 @@
 // Your code here...
 #include<stdio.h>
-int bubblesort(int arr[],int n){
-    for(int i=0;i<n-1;i++){
-        for(int j=0;j<n-i-1;j++){
-            if(arr[j]>arr[j+1]){
-                int temp=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
-            }
-        }
+int getzerotoright(int arr[],int n){
+    int index=0;
+    for(int i=0;i<n;i++){
+       if(arr[i]!=0){
+        arr[index++]=arr[i];
+       }
     }
-}
-void  reverse(int arr[],int n){
-    int start=0;
-    int end=n-1;
-    while(start<end){
-            int temp=arr[start];
-            arr[start]=arr[end];
-            arr[end]=temp;
-            start++;
-            end--;
+    if(index<n){
+        arr[index++]=0;
+        return 0;
     }
 }
 void  printarray(int arr[],int n){
@@ -35,8 +25,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bubblesort(arr,n);
-    reverse(arr,n);
+   getzerotoright(arr,n);
     printarray(arr,n);
     return 0;
 }
