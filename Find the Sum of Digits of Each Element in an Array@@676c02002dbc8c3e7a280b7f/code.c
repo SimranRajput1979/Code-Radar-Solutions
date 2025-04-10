@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-int sumofdigit(int arr[],int n){
+int sumofdigit(int num){
     int sum=0;
     if(num<0) num=-num;
     while(num>0){
@@ -16,7 +16,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    sumofdigit(arr,n);
+    sumofdigit(num);
     for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
