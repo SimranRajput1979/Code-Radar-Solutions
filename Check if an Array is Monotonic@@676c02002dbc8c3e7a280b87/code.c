@@ -1,8 +1,8 @@
 // Your code here...
 #include<stdio.h>
 int monotonic(int arr[],int n){
-    int increasing=0;
-    int decreasing=0;
+    int increasing=1;
+    int decreasing=1;
     for(int i=0;i<n;i++){
         if(arr[i]<arr[i+1]){
             increasing=0;
