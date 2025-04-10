@@ -19,8 +19,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,n);
-    int result=arr[n-1]*arr[n-2];
+    int product1=arr[n-1]*arr[n-2];
+    int product2=arr[0]*arr[1];
+    int result=(product1>product2)?product1:product2;
     printf("%d",result);
-    return 0;
 
 }
