@@ -10,7 +10,7 @@ int main(){
     int found=0;
     for(int i=0;i<n;i++){
         int repeate=0;
-        for(int j=0;j<n-1;j++){
+        for(int j=0;j<i+1;j++){
             if(arr[i]==arr[j]){
                 found=1;
                 repeate++;
