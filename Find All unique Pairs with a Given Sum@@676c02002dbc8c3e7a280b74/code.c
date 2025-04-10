@@ -20,7 +20,7 @@ int main(){
     scanf("%d",&k);
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-        if((arr[i]+arr[i+1])==k){
+        if((arr[i]+arr[j])==k){
             printf("%d %d",arr[i],arr[i+1]);
         }
     }}
