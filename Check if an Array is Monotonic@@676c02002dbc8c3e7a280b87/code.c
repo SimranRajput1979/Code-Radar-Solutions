@@ -11,6 +11,7 @@ int monotonic(int arr[],int n){
             decreasing=0;
         }
     }
+    return increasing||decreasing;
 }
 int main(){
     int n;
