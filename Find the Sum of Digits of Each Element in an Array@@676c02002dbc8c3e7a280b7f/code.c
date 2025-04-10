@@ -16,10 +16,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    sumofdigit(arr[i]); 
-    // for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){
+        arr[i]=sumofdigit(arr[i]);
+    }
+    for(int i=0;i<n;i++){
         printf("%d",arr[i]);
-    // }
+    }
+
   
 
 }
