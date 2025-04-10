@@ -1,5 +1,17 @@
 // Your code here...
 #include<stdio.h>
+#include<Stdlib.h>
+int bubblesort(int arr[],int n){
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    }
+}
 int main(){
     int n;
     scanf("%d",&n);
@@ -7,11 +19,14 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-        if((i-[i-1])<i){
-            printf("%d %d",i,i);
-            return 0;
-        }
+   int maximum_difference=abs(arr[1]-arr[0]);
+   int x=arr[0],y=arr[1];
+   for(int i=0;i<n-1;i++){
+    int difference=abs(arr[i+1]-arr[i]);
+    if(difference>maximum_difference){
+        maximum_difference=difference;
+        int x=arr[i];
+        int y=arr[i+1];
     }
-    return 0;
+   }
 }
