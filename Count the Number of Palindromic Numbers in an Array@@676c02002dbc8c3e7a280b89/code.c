@@ -5,6 +5,7 @@ int palindrome(int num){
     while(num>0){
         int number=num%10;
         reversed=reversed*10+number;
+        num=num/10;
     }
     return original==reversed;
 
