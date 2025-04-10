@@ -17,13 +17,11 @@ int main(){
 
             }
         }
-        if(found=1){
+        if(found==1){
                 printf("%d",arr[i]);
                 return 0;
         }
-        else{
-            printf("-1");
-        }
     }
+    printf("-1");
     return 0;
 }
