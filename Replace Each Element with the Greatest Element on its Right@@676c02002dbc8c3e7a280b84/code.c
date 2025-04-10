@@ -7,16 +7,16 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-        while(i<n){
-            if(arr[i]<arr[i+1]){
-                int temp=arr[i];
-                arr[i]=arr[i+1];
-                arr[i+1]=temp;
-            }
+    int max=-1;
+    for(int i=n-1;i>=0;i--){
+        int temp=arr[i];
+        arr[i]=max;
+        if(temp>max){
+            max=temp;
         }
-        printf("%d",arr[i]);
-
     }
-    printf("-1",arr[n-1]);
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
+    result=0;
 }
