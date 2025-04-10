@@ -19,7 +19,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     bubblesort(arr,n);
-    result=arr[n-1]*arr[n-2];
+    int result=arr[n-1]*arr[n-2];
     printf("%d",result);
     return 0;
 
