@@ -22,7 +22,7 @@ int main(){
    int x=arr[0],y=arr[1];
    for(int i=0;i<n-1;i++){
     int difference=abs(arr[i+1]-arr[i]);
-    if(difference>maximum_difference){
+    if(difference<maximum_difference){
         maximum_difference=difference;
         int x=arr[i];
         int y=arr[i+1];
