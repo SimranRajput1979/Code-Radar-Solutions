@@ -16,7 +16,7 @@ void  reverse(int arr[],int n){
     int end=n-1;
     while(start<end){
             int temp=start;
-            star=end;
+            start=end;
             end=temp;
             start++;
             end--;
