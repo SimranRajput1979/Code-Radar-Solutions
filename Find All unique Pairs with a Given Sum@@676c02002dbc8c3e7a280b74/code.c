@@ -24,5 +24,5 @@ int main(){
             printf("%d %d",arr[i],arr[j]);
         }
     }}
-    // return 0;
+     return 0;
 }
