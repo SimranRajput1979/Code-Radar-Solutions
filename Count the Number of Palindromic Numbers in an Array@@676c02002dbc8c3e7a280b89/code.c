@@ -2,7 +2,7 @@
 #include<stdio.h>
 int palindrome(int num){
     int original=num,reversed=0;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<num;i++){
         int number=num%10;
         reversed=reversed*10+number;
     }
