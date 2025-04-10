@@ -21,13 +21,13 @@ void  reverse(int arr[],int n){
             start++;
             end--;
     }
-    void  printarray(int arr[],int n){
+}
+void  printarray(int arr[],int n){
         for(int i=0;i<n;i++){
             printf("%d ",arr[i]);
 
         }
     }
-}
 int main(){
     int n;
     scanf("%d",&n);
