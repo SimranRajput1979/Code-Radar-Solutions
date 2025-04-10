@@ -9,7 +9,7 @@ int getzerotoright(int arr[],int n){
     }
     while(index<n){
         arr[index++]=0;
-        return 0;
+        // return 0;
     }
 }
 void  printarray(int arr[],int n){
