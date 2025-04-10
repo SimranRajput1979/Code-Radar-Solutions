@@ -28,8 +28,8 @@ int main(){
     int difference=abs(arr[i+1]-arr[i]);
     if(difference<maximum_difference){
         maximum_difference=difference;
-        int x=arr[i];
-        int y=arr[i+1];
+         x=arr[i];
+         y=arr[i+1];
     }
    }
    printf("%d %d",x,y);
