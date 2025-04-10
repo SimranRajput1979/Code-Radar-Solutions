@@ -29,4 +29,5 @@ int main(){
         int y=arr[i+1];
     }
    }
+   printf("%d %d",arr[i],arr[i+1]);
 }
