@@ -15,6 +15,7 @@ int main(){
                 arr[i+1]=temp;
             }
         }
+        printf("%d",arr[i]);
 
     }
     printf("-1",arr[n-1]);
