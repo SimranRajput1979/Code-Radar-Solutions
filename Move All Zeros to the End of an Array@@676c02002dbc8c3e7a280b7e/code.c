@@ -7,7 +7,7 @@ int getzerotoright(int arr[],int n){
         arr[index++]=arr[i];
        }
     }
-    if(index<n){
+    while(index<n){
         arr[index++]=0;
         return 0;
     }
