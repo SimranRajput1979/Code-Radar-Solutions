@@ -15,9 +15,10 @@ int main(){
         }
         if(n==1){
             printf("%d",arr[0]);
+            break;
             
         }
     }
-    // printf("%d",n-1);
+     printf("%d",n-1);
     
 }
