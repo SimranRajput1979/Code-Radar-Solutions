@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int n;
+    int n,max;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -12,13 +12,12 @@ int main(){
            return 0;
             
         }
+        max=arr[0]
     for(int i=0;i<n-1;i++){
-        if(arr[i]>=arr[i+1]){
-         printf("%d ",arr[i]);
+        if(arr[i]>=max){
+            max=arr[i];
+         printf("%d ",max);
         }
     }
     printf("%d",arr[n-1]);
-
-  
-    
 }
