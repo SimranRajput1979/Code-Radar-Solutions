@@ -13,15 +13,10 @@ int main(){
             
         }
     for(int i=0;i<n-1;i++){
-        int isleader=1;
-       for(int j=i;j<n;j++){
-        if(arr[i]<arr[j]){
-            isleader=0;
+        if(arr[i]>=arr[i+1]){
+         printf("%d ",arr[i]);
+          
         }
-       }
-       if(isleader){
-        printf("%d",arr[i]);
-       }
     }
     printf("%d",arr[n-1]);
 
