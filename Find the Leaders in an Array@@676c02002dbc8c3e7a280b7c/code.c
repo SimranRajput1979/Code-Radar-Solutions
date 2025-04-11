@@ -14,9 +14,10 @@ int main(){
         }
         max=arr[0];
     for(int i=0;i<n-1;i++){
-        if(arr[i]>max){
-            max=arr[i];
-         printf("%d ",max);
+        for (j=i;j<n-1;j++){
+            if(arr[i]>max){
+                printf("%d",max);
+            }
         }
     }
     printf("%d",arr[n-1]);
