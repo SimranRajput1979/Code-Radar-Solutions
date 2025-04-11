@@ -13,7 +13,7 @@ int main(){
         for(int j=i+1;j<n;j++){
                 if(arr[i]+arr[j]==k){
                 int alreadyprinted=0;
-                for(int m;m<i;m++){
+                for(int m=0;m<i;m++){
                     for(int n=m+1;n<j;j++){
                         if((arr[m]==arr[i] && arr[n]==arr[j]) || arr[m]==arr[j] && arr[n]==arr[i]){
                             alreadyprinted=1;
@@ -26,8 +26,7 @@ int main(){
                     printf("%d %d\n",arr[i],arr[j]);
                 }
         }
-    }
-   
+    } 
 }
 return 0;
 }
