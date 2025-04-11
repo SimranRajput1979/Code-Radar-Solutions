@@ -15,12 +15,12 @@ int main(){
         printf("%d",max);
         for(int i=n-2;i>=0;i--){
             if(arr[i]>max){
-                printf("%d",arr[i]);
+                printf("%d ",arr[i]);
                 max=arr[i];
             }
 
         }
-   
+   return 0;
 
   
     
