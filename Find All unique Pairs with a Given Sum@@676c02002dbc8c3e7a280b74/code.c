@@ -14,7 +14,7 @@ int main(){
                 if(arr[i]+arr[j]==k){
                 int alreadyprinted=0;
                 for(int m=0;m<i;m++){
-                    for(int n=m+1;n<j;j++){
+                    for(int n=m+1;n<j;n++){
                         if((arr[m]==arr[i] && arr[n]==arr[j]) || arr[m]==arr[j] && arr[n]==arr[i]){
                             alreadyprinted=1;
                             break;
