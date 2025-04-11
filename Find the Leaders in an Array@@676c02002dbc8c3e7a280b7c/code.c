@@ -9,21 +9,18 @@ int main(){
     }
     if(n==1){
             printf("%d",arr[0]);
-           return 0;
-            
+           return 0;     
         }
-    for(int i=0;i<n-1;i++){
-        int isleader=1;
-       for(int j=i;j<n;j++){
-        if(arr[i]<arr[j]){
-            isleader=0;
+        int max=arr[n-1];
+        printf("%d",max);
+        for(int i=n-2;i>=0;i--){
+            if(arr[i]>max){
+                printf("%d",arr[i]);
+                max=arr[i];
+            }
+
         }
-       }
-       if(isleader){
-        printf("%d",arr[i]);
-       }
-    }
-    printf("%d",arr[n-1]);
+   
 
   
     
